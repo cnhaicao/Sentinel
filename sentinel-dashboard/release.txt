@@ -1,4 +1,6 @@
-#spring-boot-starter-alibaba-sentinel增加以下配置
+1.将sentinel操作数据保存到nacos
+注意需要修改nacos.serverAddr属性
+2.spring-boot-starter-alibaba-sentinel增加以下配置
 sentinel:
       transport:
         #指定一个端口用于接受dashboard的规则变更通知回调
